@@ -1,0 +1,21 @@
+table {
+  max-width: 800px;
+  width: 100vw;
+  tr {
+    width: 100%;
+    background: white;
+
+    td {
+      padding: 20px;
+      color: $gri;
+      font-size: 16px;
+    }
+
+    &:nth-of-type(2n + 1) {
+      background: #fcfcfc;
+    }
+  }
+}
+.servicii{
+    margin-bottom: 50px;
+}

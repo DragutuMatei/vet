@@ -1,0 +1,46 @@
+@import "./constants";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+p {
+  text-indent: 20px;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.button {
+  width: auto;
+  padding: 15px 25px;
+  color: white;
+  background: $black;
+  cursor: pointer;
+  text-transform: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: 0.3s ease-in;
+
+  &:hover {
+    background: $yellow;
+    color: $black;
+    border-radius: 20px;
+  }
+}
+
+@import "./navbar";
+@import "./home";
+@import "./about";
+@import "./servicii";
+@import "./contact";
+@import "./preturi";
+@import "./footer";

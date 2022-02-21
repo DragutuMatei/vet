@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</head>
+
+<body class="demo-2">
+    <section class="navigation">
+        <div class="nav-container">
+            <div class="brand">
+                <a href="./">🍀 Clover Clothing</a>
+            </div>
+            <nav>
+                <div class="nav-mobile">
+                    <a id="nav-toggle" href="#!"><span></span></a>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="./">Acasa</a></li>
+                    <li><a href="./despre.html">Despre noi</a></li>
+                    <li> <a href="./servicii.html">Servicii</a> </li>
+                    <!-- <li>
+                        <a href="#!">Servicii</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="#!">Web Design</a></li>
+                            <li><a href="#!">Web Development</a></li>
+                            <li><a href="#!">Graphic Design</a></li>
+                        </ul>
+                    </li> -->
+                    <li><a href="./preturi-tarife.html">Preturi si tarife</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </section>
+
+
+    <div class="servicii">
+        <h1>Serviciile noastre</h1>
+        <div class="tabs">
+
+            <div class="tab">
+                <div class="tablinks" onclick="openCity(event, 'V')" id="defaultOpen">Vaccinări</div>
+                <div class="tablinks" onclick="openCity(event, 'A')">Analize</div>
+                <div class="tablinks" onclick="openCity(event, 'C')">Cosmetică</div>
+                <div class="tablinks" onclick="openCity(event, 'T')">Tratamente</div>
+                <div class="tablinks" onclick="openCity(event, 'CH')">Chirurgie</div>
+                <div class="tablinks" onclick="openCity(event, 'D')">Deplasari</div>
+                <div class="tablinks" onclick="openCity(event, 'CH')">Chirurgie</div>
+                <div class="tablinks" onclick="openCity(event, 'AL')">Altele</div>
+            </div>
+
+
+            <div id="V" class="tabcontent">
+                <table>
+                    <tr>
+                        <td>NOBIVAC PUPPY- DP / PARVO C</td>
+                        <td>100 RON</td>
+                    </tr>
+
+                    <tr>
+                        <td>NOBIVAC DHP-L</td>
+                        <td>100 RON</td>
+                    </tr>
+
+                    <tr>
+                        <td>NOBIVAC DHPPI-L</td>
+                        <td>150 RON</td>
+                    </tr>
+
+                    <tr>
+                        <td>NOBIVAC DHPPI-LR</td>
+                        <td>180 RON</td>
+                    </tr>
+
+                    <tr>
+                        <td>NOBIVAC KC </td>
+                        <td>120 RON</td>
+                    </tr>
+
+                    <tr>
+                        <td>NOBIVAC TRICAT</td>
+                        <td>120 RON</td>
+                    </tr>
+                    <tr>
+                        <td>NOBIVAC TRICAT + RABIC</td>
+                        <td>150 RON</td>
+                    </tr>
+                    <tr>
+                        <td>LEUCOFELIGEN CAT VIRBAC cu 4 valente</td>
+                        <td>250 RON</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="A" class="tabcontent">
+                <table>
+                    <tr>
+                        <td>TEST RAPID</td>
+                        <td>100-15O RON</td>
+                    </tr>
+                    <tr>
+                        <td>RACLAT DERMIC</td>
+                        <td>5O RON</td>
+                    </tr>
+                    <tr>
+                        <td>TEST BABESIOZA PE LAMA</td>
+                        <td>15O-200 RON</td>
+                    </tr>
+                    <tr>
+                        <td>TEST DIROFILARIOZA PE LAMA</td>
+                        <td>15O RON</td>
+                    </tr>
+                    <tr>
+                        <td>TEST PARAZITAR PE LAMA</td>
+                        <td>200 RON</td>
+                    </tr>
+                    <tr>
+                        <td>SEDIMENT URINAR</td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>BIOCHIMIE URINARA </td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>EXAMEN COPROPRAZITOLOGIC</td>
+                        <td>200 RON</td>
+                    </tr>
+                    <tr>
+                        <td>EXAMEN VIDEO-OTOSCOPIC</td>
+                        <td>100 RON</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>BIOCHIMIE SERICA</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>PANEL 1 </td>
+                        <td>250 RON</td>
+                    </tr>
+                    <tr>
+                        <td>PANEL V</td>
+                        <td>150 RON</td>
+                    </tr>
+                    <tr>
+                        <td>AMILAZA PANCREATICA</td>
+                        <td>80 RON</td>
+                    </tr>
+                    <tr>
+                        <td>FOSFATAZA ALCALINA</td>
+                        <td>80 RON</td>
+                    </tr>
+                    <tr>
+                        <td>GLICEMIE / TEST SEPARAT RAPID</td>
+                        <td>20 RON</td>
+                    </tr>
+                    <tr>
+                        <td>UREE</td>
+                        <td>80 RON</td>
+                    </tr>
+                    <tr>
+                        <td>CREATININA</td>
+                        <td>60 RON</td>
+                    </tr>
+                    <tr>
+                        <td>CPK </td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>BILIRUBINA TOTALA </td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>GPT</td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>GOT</td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>COLESTEROL TOTAL </td>
+                        <td>80 RON</td>
+                    </tr>
+                    <tr>
+                        <td>CALCIU SERIC </td>
+                        <td>50 RON</td>
+                    </tr>
+                    <tr>
+                        <td>MAGNEZIU </td>
+                        <td>50 RON</td>
+                    </tr>
+                    <tr>
+                        <td>HEMOLEUCOGRAMA COMPLETA </td>
+                        <td>150 RON</td>
+                    </tr>
+                </table>
+                <div class="info">
+                    <p>La cerere se pot efectua orice fel de analize medicale. Durata eliberarii rezultatelor va fi in
+                        functie de felul analizei si laboratorul unde sunt trimise.</p>
+                </div>
+            </div>
+
+            <div id="C" class="tabcontent">
+                <table>
+                    <tr>
+                        <td>CAINE</td>
+                        <td>TUNS</td>
+                        <td>SPALAT</td>
+                    </tr>
+                    <tr>
+                        <td>2-10 KG</td>
+                        <td>150 RON</td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>10-15 KG</td>
+                        <td>200 RON</td>
+                        <td>150 RON</td>
+                    </tr>
+                    <tr>
+                        <td>15-20 KG</td>
+                        <td>250 RON</td>
+                        <td>150 RON</td>
+                    </tr>
+                    <tr>
+                        <td>20-30 KG</td>
+                        <td>250 RON</td>
+                        <td>150 RON</td>
+                    </tr>
+                    <tr>
+                        <td>30-40 KG</td>
+                        <td>350 RON</td>
+                        <td>200 RON</td>
+                    </tr>
+                    <tr>
+                        <td>PESTE 40 KG</td>
+                        <td>400 RON</td>
+                        <td>200 RON</td>
+                    </tr>
+                    <tr>
+                        <td>PESTE 40 KG</td>
+                        <td>200 RON</td>
+                        <td>100 RON</td>
+                    </tr>
+                </table>
+                <div class="info">
+                    <p>Nu se tund cainii uzi.</p>
+                    <p>Modelul presupune o crestere cu 50 % .Conditiile de intretinere a animalului pot modifica crestea
+                        pretului in functie de aprecierea cosmeticianului.</p>
+                </div>
+            </div>
+
+            <div id="T" class="tabcontent">
+                <table>
+                    <tr>
+                        <td>TRATAMENTE</td>
+                    </tr>
+                    <tr>
+                        <td>BANDAJ SIMPLU</td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>BANDAJ GIPSAT</td>
+                        <td>150 RON</td>
+                    </tr>
+                    <tr>
+                        <td>BANDAJ MEDICAMENTAT</td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>PUNCTIE ASCITICA </td>
+                        <td>150 RON</td>
+                    </tr>
+                    <tr>
+                        <td>TRATAMENT CU CITOSTATICE </td>
+                        <td>300-600 RON</td>
+                    </tr>
+                    <tr>
+                        <td>MONTAT BRANULA</td>
+                        <td>25 RON</td>
+                    </tr>
+                    <tr>
+                        <td>RECOLTAT SANGE VENOS</td>
+                        <td>25 RON</td>
+                    </tr>
+                    <tr>
+                        <td>INJECTII</td>
+                        <td>30 RON MANOPERA</td>
+                    </tr>
+                    <tr>
+                        <td>TRANSFUZIE SANGUINA + TEST DE COMPATIBILITATE</td>
+                        <td>300-400 RON</td>
+                    </tr>
+                    <tr>
+                        <td>TRATAMENTE IN CAZURI DE SOC</td>
+                        <td>250-350 RON</td>
+                    </tr>
+                    <tr>
+                        <td>SONDAJ MOTAN</td>
+                        <td>150 RON+ SONDA</td>
+                    </tr>
+                    <tr>
+                        <td>SONDAJ CAINE </td>
+                        <td>250 RON+ SONDA</td>
+                    </tr>
+                    <tr>
+                        <td>CLISMA CAINE</td>
+                        <td>350 RON</td>
+                    </tr>
+                    <tr>
+                        <td>CLISMA MOTAN</td>
+                        <td>150 RON</td>
+                    </tr>
+                    <tr>
+                        <td>DEPARAZITARI INTERNE/EXTERNE</td>
+                        <td>15-20 RON MANOPERA</td>
+                    </tr>
+                    <tr>
+                        <td>PERFUZIE SIMPLA (NEMEDICAMENTATA)</td>
+                        <td>50-80 RON </td>
+                    </tr>
+                    <tr>
+                        <td>PERFUZIE MEDICAMENTATA</td>
+                        <td>150-200 RON</td>
+                    </tr>
+                    <tr>
+                        <td>PERFUZIE MEDICAMENTATA</td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>EXAMEN OFTALMOLOGICs</td>
+                        <td>250 RON</td>
+                    </tr>
+                    <tr>
+                        <td>ELIBERARE RETETA + SCHEMA TRATAMENT</td>
+                        <td>50 RON</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="CH" class="tabcontent">
+                <table>
+                    <tr>
+                        <td>TRATAMENTE</td>
+                    </tr>
+                    <tr>
+                        <td>BANDAJ SIMPLU</td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>BANDAJ GIPSAT</td>
+                        <td>150 RON</td>
+                    </tr>
+                    <tr>
+                        <td>BANDAJ MEDICAMENTAT</td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>PUNCTIE ASCITICA </td>
+                        <td>150 RON</td>
+                    </tr>
+                    <tr>
+                        <td>TRATAMENT CU CITOSTATICE </td>
+                        <td>300-600 RON</td>
+                    </tr>
+                    <tr>
+                        <td>MONTAT BRANULA</td>
+                        <td>25 RON</td>
+                    </tr>
+                    <tr>
+                        <td>RECOLTAT SANGE VENOS</td>
+                        <td>25 RON</td>
+                    </tr>
+                    <tr>
+                        <td>INJECTII</td>
+                        <td>30 RON MANOPERA</td>
+                    </tr>
+                    <tr>
+                        <td>TRANSFUZIE SANGUINA + TEST DE COMPATIBILITATE</td>
+                        <td>300-400 RON</td>
+                    </tr>
+                    <tr>
+                        <td>TRATAMENTE IN CAZURI DE SOC</td>
+                        <td>250-350 RON</td>
+                    </tr>
+                    <tr>
+                        <td>SONDAJ MOTAN</td>
+                        <td>150 RON+ SONDA</td>
+                    </tr>
+                    <tr>
+                        <td>SONDAJ CAINE </td>
+                        <td>250 RON+ SONDA</td>
+                    </tr>
+                    <tr>
+                        <td>CLISMA CAINE</td>
+                        <td>350 RON</td>
+                    </tr>
+                    <tr>
+                        <td>CLISMA MOTAN</td>
+                        <td>150 RON</td>
+                    </tr>
+                    <tr>
+                        <td>DEPARAZITARI INTERNE/EXTERNE</td>
+                        <td>15-20 RON MANOPERA</td>
+                    </tr>
+                    <tr>
+                        <td>PERFUZIE SIMPLA (NEMEDICAMENTATA)</td>
+                        <td>50-80 RON </td>
+                    </tr>
+                    <tr>
+                        <td>PERFUZIE MEDICAMENTATA</td>
+                        <td>150-200 RON</td>
+                    </tr>
+                    <tr>
+                        <td>PERFUZIE MEDICAMENTATA</td>
+                        <td>100 RON</td>
+                    </tr>
+                    <tr>
+                        <td>EXAMEN OFTALMOLOGICs</td>
+                        <td>250 RON</td>
+                    </tr>
+                    <tr>
+                        <td>ELIBERARE RETETA + SCHEMA TRATAMENT</td>
+                        <td>50 RON</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="D" class="tabcontent">
+                <div class="sect">
+
+                    <h3>Chirurgie</h3>
+                    <p>Intervențiile chirurgicale din cadrul cabinetului IZZY- VET vin să rezolve anumite probleme
+                        apărute
+                        accidental sau să corecteze unele anomalii genetice. De cele mai multe ori, calea chirurgicală
+                        este
+                        singura metodă eficientă (sterilizări, extracţii corpi străini, distocii, torsiuni etc).
+                        Cabinetul
+                        nostru dispune de o cameră de chirurgie dotată cu aparatură specializată , instrumentar şi
+                        tehnici
+                        conform standardelor europene. Se poate interveni chirurgical pe multe afecțiuni cum ar fi:</p>
+                    <p><b><i>CHIRURGIA APARATULUI LOCOMOTOR </i></b>presupune intervenţia la nivelul oaselor în diferite
+                        luxaţii, fracturi, procese inflamatorii trenante, sarcoame şi osteosarcoame. Pentru
+                        intervenţiile la
+                        nivelul coloanei vertebrale ( osteofiţi, hernii, discopatii, pareza totală sau parţială a
+                        membrelor)
+                        se poate face recomandare şi trimitere către o renumită clinică din Austria, unde medicii
+                        ortopezi
+                        rezolvă multe dintre cazurile imposibil, aparent, de rezolvat la noi.</p>
+                    <ul>
+                        <li>amputare membre</li>
+                        <li>amputare falangă</li>
+                        <li>higroma cotului</li>
+                    </ul>
+                </div>
+                <div class="sect">
+
+                    <p><b><i>CHIRURGIA DERMATOLOGICǍ ŞI PLASTICǍ</i></b>: Este cunoscut faptul că există anumite rase de
+                        câini care dobândesc genetic unele defecţiuni ale ochilor şi urechilor care pot fi ulterior
+                        remediate chirurgical de către medical veterinar. Acestea pot fi:</p>
+
+                    <ul>
+                        <li>entropion</li>
+                        <li>ectropion</li>
+                        <li>prolapsul pleoapei a III- a</li>
+                    </ul>
+                </div>
+
+                <div class="sect">
+                    <p>De asemenea, se mai poate intervenii la nivelul dermului în cazul:</p>
+                    <ul>
+                        <li>plăgilor</li>
+                        <li>arsurilor</li>
+                        <li>tumorilor( maligne, benigne)</li>
+                        <li>granuloamelor</li>
+                        <li>flegmoanelor</li>
+                        <li>abceselor</li>
+                        <li>othematoamelor</li>
+                        <li>prolapsului globului ocular</li>
+                        <li>enucleerea globului ocular</li>
+                    </ul>
+                </div>
+                <div class="sect">
+                    <p>
+                        <b>CHIRURGIA ABDOMINALǍ</b> presupune intervenţia la nivelul cavităţii abdominale, eventual
+                        consecutiv unor analize amănunţite pentru un diagnostic de certitudine( radiografii, ecografii,
+                        tomografii).</p>
+                    <ul>
+                        <li>hernii</li>
+                        <li>splenectomii</li>
+                        <li>enterectomii/ enterotomii</li>
+                        <li>corpi străini</li>
+                        <li>dilataţie gastrică şi torsiune gastrică</li>
+                        <li>megacolon</li>
+                        <li>prolaps rectal</li>
+                    </ul>
+                </div>
+                <div class="sect">
+
+                    <p><b><i>OBSTETRICǍ- GINECOLOGIE</i></b></p>
+                    <ul>
+                        <li>cezariană</li>
+                        <li>ovariohisterectomie</li>
+                        <li>extirpare testicul ectopic</li>
+                        <li>orhidectomie</li>
+                        <li>prolaps vaginal/ uterin</li>
+                    </ul>
+                </div>
+                <div class="sect">
+
+                    <p><b><i>CHIRURGIA APARATULUI URINAR</i></b></p>
+                    <ul>
+                        <li>cistectomii – calculoză vazicală, tumori vezicale, polipi</li>
+                        <li>uretrotomie</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="AL" class="tabcontent">
+                <h3>Analize de laborator</h3>
+                <p>Diagnosticul anumitor afecţiuni trenante şi cu manifestări insidioase se face prin diverse teste
+                    ale
+                    sângelui, urinei, secreţiilor şi excreţiilor. Există, datorită noii tehnici, kituri rapide de
+                    diagnostic pentru multe dintre maladiile virale şi parazitare cu risc mare atât pentru
+                    companionul
+                    dumneavoastră cât şi pentru stăpân. IZZY_VET dispune de următoarele dotări de laborator:</p>
+                <ul>
+                    <li>Microscop digital pentru hematologie cu posibilitate de fotografiere</li>
+                    <li>Microscop digital pentru probele parazitologice , dermatologice şi a sedimentului urinarşi
+                        înregistrare</li>
+                    <li>Aparat pentru biochimie uscată-care măsoară parametrii organelor vitale ale organismului
+                        animal,
+                        cât şi concentraţia anumitor minerale la nivel seric</li>
+                    <li>Aparat pentru biochimie urinară</li>
+                    <li>Teste de babesioza pe lamă (colorată/ necolorată)</li>
+                    <li>Raclat dermic pe lamă</li>
+                    <li>Sedimentul urinar</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="up">
+            <div class="left">
+                <h3>PAGINI</h3>
+                <a href="./">Acasa</a>
+                <a href="./despre.html">Despre noi</a>
+                <a href="./servicii.html">Servicii</a>
+                <a href="./preturi-tarife.html">Prețuri și tarife</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+            <div class="center1">
+                <h3>LINK-URI</h3>
+                <a href="./despre.html/#Punct-Farmaceutic">Punct Farmaceutic</a>
+                <a href="./despre.html/#PetShop">Pet Shop</a>
+                <a href="./despre.html/#Cosmetica">Cosmetică felină și canină</a>
+            </div>
+            <div class="center2">
+                <h3>CONTACT</h3>
+                <p>Str. Cornelia, nr. 38 </p>
+                <p> sector 4, Bucureşti</p>
+                <p><a href="tel:0213350401">0213 350 401</a></p>
+                <p><a href="tel:0722507330">0722 507 330</a></p>
+                <p> <a href="mailto:mihaela.mezei@gmail.com">mihaela.mezei@gmail.com</a></p>
+            </div>
+            <div class="right">
+                <h3>aicea fb dar nush momentan cum</h3>
+            </div>
+        </div>
+        <div class="down">
+            <h6>© Izzyvet 2021. Toate drepturile rezervate.</h6>
+        </div>
+    </footer>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+
+</html>
